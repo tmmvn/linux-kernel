@@ -1,8 +1,8 @@
 # SPDX-License-Identifier: GPL-2.0
 VERSION = 6
-PATCHLEVEL = 11
+PATCHLEVEL = 12
 SUBLEVEL = 0
-EXTRAVERSION =
+EXTRAVERSION = -rc2
 NAME = Baby Opossum Posse
 
 # *DOCUMENTATION*
@@ -1645,7 +1645,7 @@ help:
 		echo '* dtbs               - Build device tree blobs for enabled boards'; \
 		echo '  dtbs_install       - Install dtbs to $(INSTALL_DTBS_PATH)'; \
 		echo '  dt_binding_check   - Validate device tree binding documents and examples'; \
-		echo '  dt_binding_schema  - Build processed device tree binding schemas'; \
+		echo '  dt_binding_schemas - Build processed device tree binding schemas'; \
 		echo '  dtbs_check         - Validate device tree source files';\
 		echo '')
 
